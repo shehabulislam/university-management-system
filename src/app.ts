@@ -1,13 +1,20 @@
-import express, { Application } from "express";
-import cors from "cors";
-const app: Application = express();
+import express, { Application } from 'express'
+import cors from 'cors'
+const app: Application = express()
 
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded());
+import userRoute from './app/modules/users/user.route'
 
-app.get("/", (req, res) => {
-  res.send("server is running");
-});
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded())
 
-export default app;
+// Application routes
+app.use('/api/v1/users', userRoute)
+
+// app.get('')
+
+app.get('/', (req, res) => {
+  res.send('server is running')
+})
+
+export default app
