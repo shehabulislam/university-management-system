@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\.59833eafed82aaa11598587050ba123b21a406f2-audit.json",
+    "files": [
+        {
+            "date": 1686020654384,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\ph-2023-06-06-09.log",
+            "hash": "3c096d0e58a0acb61fc166692211c7563b430e75ca2fda9053461bf497c5e017"
+        },
+        {
+            "date": 1686102564614,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\ph-2023-06-07-07.log",
+            "hash": "1f715b26bd9cba6db51c109d0a6992b82bbe4a008960f6b09eafec34dbbb10be"
+        },
+        {
+            "date": 1686103258293,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\ph-2023-06-07-08.log",
+            "hash": "b8e250b97584e58b332f6cf3324688a0968947c89d150cc586467375a9841889"
+        },
+        {
+            "date": 1686190514441,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\ph-2023-06-08-08.log",
+            "hash": "204ebceeff02dd1b398f9f1f4642bc66855be97c4eb039472126d21503316aa0"
+        },
+        {
+            "date": 1686193266912,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\successes\\ph-2023-06-08-09.log",
+            "hash": "2c1a65bf85a6eaaaa067c034cf44da9ceb6a4cc05cc2adbb621be0dc440cd445"
+        }
+    ],
+    "hashType": "sha256"
+}
