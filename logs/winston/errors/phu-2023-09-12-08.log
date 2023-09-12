@@ -1,0 +1,79 @@
+Tue Sep 12 2023 8:24:27 [ph] error: Connect failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.1kusvva.mongodb.net
+Tue Sep 12 2023 8:29:32 [ph] error: Connect failed: querySrv ENOTFOUND _mongodb._tcp.cluster0.1kusvva.mongodb.net
+Tue Sep 12 2023 8:32:22 [ph] error: [
+  {
+    "expected": "'Autumn' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Code is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Start month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Tue Sep 12 2023 8:34:7 [ph] error: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+Tue Sep 12 2023 8:34:53 [ph] error: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "string",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Expected number, received string"
+  }
+]
+Tue Sep 12 2023 8:37:25 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Autumn" }

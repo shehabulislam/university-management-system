@@ -4,6 +4,8 @@ import { IGenericErrorMessage } from '../../interfaces/error'
 import handleValidationError from '../../errors/handleValidationError'
 import ApiError from '../../errors/ApiError'
 import { errorLogger } from '../../shared/logger'
+import { ZodError } from 'zod'
+import handleZodError from '../../errors/handleZodError'
 
 const globalErrorHandler = (
   err: any,
@@ -17,7 +19,7 @@ const globalErrorHandler = (
       console.log('🚀 global Error Handlder', err)
     : errorLogger.error(err)
 
-  let statusCode: number | string = 500
+  let statusCode = 500
   let message = 'Something went wrong!'
   let errorMessages: IGenericErrorMessage[] = []
 
@@ -37,6 +39,9 @@ const globalErrorHandler = (
           },
         ]
       : []
+  } else if (err instanceof ZodError) {
+    const simplifiedError = handleZodError(err)
+    statusCode = simplifiedError.statusCode
   } else if (err instanceof Error) {
     message = err.message
     errorMessages = err?.message
