@@ -1,0 +1,5 @@
+Fri Sep 15 2023 15:23:4 [ph] error: Cast to ObjectId failed for value "650116fd7fcfb270c7a78738d" (type string) at path "_id" for model "AcademicSemester"
+Fri Sep 15 2023 15:24:8 [ph] error: Cast to ObjectId failed for value "650116fd7fc" (type string) at path "_id" for model "AcademicSemester"
+Fri Sep 15 2023 15:27:50 [ph] error: Cast to ObjectId failed for value "650116fd7fc" (type string) at path "_id" for model "AcademicSemester"
+Fri Sep 15 2023 15:42:14 [ph] error: Cast to ObjectId failed for value "650116fd7fc" (type string) at path "_id" for model "AcademicSemester"
+Fri Sep 15 2023 15:48:9 [ph] error: Cast to ObjectId failed for value "650116fd7fcfb270c7a78738d" (type string) at path "_id" for model "AcademicSemester"

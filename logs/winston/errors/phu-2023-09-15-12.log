@@ -1,0 +1,6 @@
+Fri Sep 15 2023 12:10:53 [ph] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+Fri Sep 15 2023 12:20:52 [ph] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+Fri Sep 15 2023 12:22:23 [ph] error: Cannot set headers after they are sent to the client
+Fri Sep 15 2023 12:23:26 [ph] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+Fri Sep 15 2023 12:25:30 [ph] error: Parameter "filter" to find() must be an object, got "[object Object]" (type object)
+Fri Sep 15 2023 12:50:30 [ph] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"

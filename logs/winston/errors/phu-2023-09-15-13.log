@@ -1,0 +1,4 @@
+Fri Sep 15 2023 13:0:33 [ph] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+Fri Sep 15 2023 13:1:44 [ph] error: Cast to number failed for value "i" (type string) at path "year" for model "AcademicSemester"
+Fri Sep 15 2023 13:2:51 [ph] error: Cast to number failed for value "au" (type string) at path "year" for model "AcademicSemester"
+Fri Sep 15 2023 13:3:15 [ph] error: Cast to number failed for value "01" (type string) at path "year" for model "AcademicSemester"

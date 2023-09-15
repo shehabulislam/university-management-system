@@ -8,6 +8,9 @@ import {
   academicSemesterCode,
   academicSemesterTitle,
 } from './academicSemester.constant'
+import ApiError from '../../../errors/ApiError'
+
+import status from 'http-status'
 
 const academicSemesterSchema = new Schema<IAcademicSemester>(
   {
@@ -15,10 +18,9 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
       required: true,
       type: String,
       enum: academicSemesterTitle,
-      unique: true,
     },
     year: {
-      type: Number,
+      type: String,
       required: true,
     },
     code: {
@@ -39,6 +41,19 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
   },
   { timestamps: true }
 )
+
+// pre hook for semester validation
+
+academicSemesterSchema.pre('save', async function (next) {
+  const isExist = await AcademicSemester.findOne({
+    title: this.title,
+    year: this.year,
+  })
+  if (isExist) {
+    throw new ApiError(status.CONFLICT, 'AcademicSemester already exists!')
+  }
+  next()
+})
 
 const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
   'AcademicSemester',

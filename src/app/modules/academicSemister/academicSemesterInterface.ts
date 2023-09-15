@@ -18,10 +18,21 @@ export type IAcademicSemesterCode = '01' | '02' | '03'
 
 export type IAcademicSemester = {
   title: IAcademicSemesterTitle
-  year: number
+  year: string
   code: IAcademicSemesterCode
   startMonth: Month
   endMonth: Month
+}
+
+export type IPaginationOptions = {
+  page?: number
+  limit?: number
+  sortBy?: string
+  sortOrder?: 'asc' | 'desc'
+}
+
+export type IAcademicSemesterFilters = {
+  searchTerm?: string
 }
 
 export type AcademicSemesterModel = Model<IAcademicSemester>

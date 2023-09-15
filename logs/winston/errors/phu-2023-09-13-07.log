@@ -1,0 +1,48 @@
+Wed Sep 13 2023 7:51:28 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Fall" }
+Wed Sep 13 2023 7:51:57 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Autumn" }
+Wed Sep 13 2023 7:52:7 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:52:24 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:52:30 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:52:31 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:53:6 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:53:7 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:53:18 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:54:24 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:54:26 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:54:27 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:54:32 [ph] error: E11000 duplicate key error collection: university-management.academicsemesters index: title_1 dup key: { title: "Summer" }
+Wed Sep 13 2023 7:57:19 [ph] error: AcademicSemester already exists!
+Wed Sep 13 2023 7:57:21 [ph] error: AcademicSemester already exists!
+Wed Sep 13 2023 7:58:6 [ph] error: [
+  {
+    "received": "Sudmmer",
+    "code": "invalid_enum_value",
+    "options": [
+      "Autumn",
+      "Summer",
+      "Fall"
+    ],
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'Sudmmer'"
+  }
+]
+Wed Sep 13 2023 7:58:8 [ph] error: [
+  {
+    "received": "Sudmmer",
+    "code": "invalid_enum_value",
+    "options": [
+      "Autumn",
+      "Summer",
+      "Fall"
+    ],
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "Invalid enum value. Expected 'Autumn' | 'Summer' | 'Fall', received 'Sudmmer'"
+  }
+]
+Wed Sep 13 2023 7:58:11 [ph] error: AcademicSemester already exists!

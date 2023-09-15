@@ -1,0 +1,73 @@
+Fri Sep 15 2023 17:0:16 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Year is required"
+  },
+  {
+    "expected": "'01' | '02' | '03'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "code"
+    ],
+    "message": "Code is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "startMonth"
+    ],
+    "message": "Start month is required"
+  },
+  {
+    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "endMonth"
+    ],
+    "message": "End month is required"
+  }
+]
+Fri Sep 15 2023 17:1:33 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code  should be provided or neither",
+    "path": []
+  }
+]
+Fri Sep 15 2023 17:3:48 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code  should be provided or neither",
+    "path": []
+  }
+]
+Fri Sep 15 2023 17:3:49 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code  should be provided or neither",
+    "path": []
+  }
+]
+Fri Sep 15 2023 17:3:49 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "custom",
+    "message": "Either both title and code  should be provided or neither",
+    "path": []
+  }
+]
+Fri Sep 15 2023 17:3:58 [ph] error: 🐱‍🏍 globalErrorHandler ~~ Invalid Semester code!
+Fri Sep 15 2023 17:23:14 [ph] error: 🐱‍🏍 globalErrorHandler ~~ Cast to ObjectId failed for value "6503ee447603ec48b7b8f49bd" (type string) at path "_id" for model "AcademicSemester"
+Fri Sep 15 2023 17:23:15 [ph] error: 🐱‍🏍 globalErrorHandler ~~ Cast to ObjectId failed for value "6503ee447603ec48b7b8f49bd" (type string) at path "_id" for model "AcademicSemester"
