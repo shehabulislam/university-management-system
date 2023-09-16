@@ -1,0 +1,20 @@
+Fri Sep 15 2023 19:38:53 [ph] error: 🐱‍🏍 globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "academicFaculty"
+    ],
+    "message": "academic Faculty is required"
+  }
+]
+Fri Sep 15 2023 19:39:51 [ph] error: 🐱‍🏍 globalErrorHandler ~~ AcademicDepartment already exists!
+Fri Sep 15 2023 19:44:39 [ph] error: Schema hasn't been registered for model "academicFaculty".
+Use mongoose.model(name, schema)
+Fri Sep 15 2023 19:45:11 [ph] error: Schema hasn't been registered for model "academicFaculty".
+Use mongoose.model(name, schema)
+Fri Sep 15 2023 19:51:58 [ph] error: 🐱‍🏍 globalErrorHandler ~~ E11000 duplicate key error collection: university-management.academicdepartments index: academicFaculty_1 dup key: { academicFaculty: ObjectId('65044cb24c15ceb1193eee51') }
+Fri Sep 15 2023 19:52:29 [ph] error: 🐱‍🏍 globalErrorHandler ~~ E11000 duplicate key error collection: university-management.academicdepartments index: academicFaculty_1 dup key: { academicFaculty: ObjectId('65044cb24c15ceb1193eee51') }
+Fri Sep 15 2023 19:52:30 [ph] error: 🐱‍🏍 globalErrorHandler ~~ E11000 duplicate key error collection: university-management.academicdepartments index: academicFaculty_1 dup key: { academicFaculty: ObjectId('65044cb24c15ceb1193eee51') }

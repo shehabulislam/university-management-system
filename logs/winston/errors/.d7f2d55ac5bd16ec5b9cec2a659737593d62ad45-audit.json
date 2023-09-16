@@ -64,6 +64,16 @@
             "date": 1694775616631,
             "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\errors\\phu-2023-09-15-17.log",
             "hash": "3e7373505f11fc7ae15f69dc7e7778501e4159e74f2441c351e04bd9e3447c8d"
+        },
+        {
+            "date": 1694779990365,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\errors\\phu-2023-09-15-18.log",
+            "hash": "3a6cea1703c6e5dcf3fa604f1fcc5e4e1947de07bd51c935e61c9bd7b00c8dcb"
+        },
+        {
+            "date": 1694782861584,
+            "name": "D:\\Programing Hero\\Next Level Development\\Mission 3\\university-management-system-auth-services\\logs\\winston\\errors\\phu-2023-09-15-19.log",
+            "hash": "6f11d634f1f473669c827279ad17031fbd42831fd12b1885606f0a6350bc0724"
         }
     ],
     "hashType": "sha256"

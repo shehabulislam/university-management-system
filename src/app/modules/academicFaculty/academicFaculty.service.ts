@@ -89,6 +89,7 @@ const updateFaculty = async (
 
   return result
 }
+
 const deleteFaculty = async (id: string): Promise<IAcademicFaculty | null> => {
   const result = await AcademicFaculty.findByIdAndDelete(id)
 

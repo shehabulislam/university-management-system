@@ -1,6 +1,8 @@
 import { AcademicSemesterRoutes } from './../modules/academicSemister/academicSemester.route'
 import express from 'express'
 import userRoute from './../modules/users/user.route'
+import { AcademicFacultyRoutes } from '../modules/academicFaculty/academicFaculty.route'
+import { AcademicDepartmentRoutes } from '../modules/academicDepartment/academicDepartment.route'
 
 const router = express.Router()
 
@@ -18,5 +20,7 @@ const router = express.Router()
 // Application routes
 router.use('/users', userRoute)
 router.use('/academic-semesters', AcademicSemesterRoutes)
+router.use('/academic-faculties', AcademicFacultyRoutes)
+router.use('/academic-departments', AcademicDepartmentRoutes)
 
 export default router
